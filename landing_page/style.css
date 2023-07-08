@@ -105,3 +105,9 @@ html,body{
 .shadow{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+a {
+    text-decoration: none !important;
+}
+a:hover {
+    color: #1d1d1f;
+}
