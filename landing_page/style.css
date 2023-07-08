@@ -1,0 +1,41 @@
+html,body{
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #fbfbfd;
+    color: #1d1d1f;
+}
+
+.main-container {
+    width: 100vw;
+    color: #1d1d1f;
+}
+.main-hedding {
+    
+}
+@media (min-width:600px)
+{
+    .image-size {
+        height: 210px;
+    }
+    .back-headding {
+        font-size: 18px;
+    }
+    .main-hedding {
+        font-size: 32px;
+    }
+}
+@media (max-width:600px )
+{
+    .image-size {
+        height: 110px;
+    }
+    .back-headding {
+        font-size: 14px;
+    }
+    .main-hedding {
+        font-size: 18px;
+    }
+    .hide-text {
+        display: none;
+    }
+}
