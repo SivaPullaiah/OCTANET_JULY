@@ -12,6 +12,37 @@ html,body{
 .main-hedding {
     
 }
+.img-box {
+    margin: 10px;
+}
+
+.img1 {
+    height: 500px;
+}
+
+.img2 {
+    height: 250px;
+    width: 280px;
+}
+
+.img3 {
+    height: 250px;
+    width: 280px;
+}
+
+.img-paading {
+    padding: 8px;
+}
+
+.img4 {
+    height: 280px;
+    width: 500px;
+}
+
+.img5 {
+    height: 220px;
+    width: 250px;
+}
 @media (min-width:600px)
 {
     .image-size {
@@ -37,5 +68,33 @@ html,body{
     }
     .hide-text {
         display: none;
+    }
+    /* images */
+    .img1 {
+        height: 250px;
+    }
+    
+    .img2 {
+        height: 125px;
+        width: 140px;
+    }
+    
+    .img3 {
+        height: 125px;
+        width: 140px;
+    }
+    
+    .img-paading {
+        padding: 8px;
+    }
+    
+    .img4 {
+        height: 100px;
+        width: 120px;
+    }
+    
+    .img5 {
+        height: 150px;
+        width: 120px;
     }
 }
