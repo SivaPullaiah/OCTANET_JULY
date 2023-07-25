@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'YourFontName'; /* The name you want to give to your font */
+  src: url('https://lf16-fe.resso.me/obj/anote-fe/socrates/home-file/static/media/Gilmer-Medium.71f3c551.woff') format('woff'); /* URL to your .otf font file */
+}
+
+/* Now, use the font-family you defined in your CSS rules */
+body {
+  font-family: 'YourFontName', sans-serif;
+}
+
+.text{
+    font-family: 'YourFontName';
+  }
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.form-container input,
+.form-container select,
+.form-container button {
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #3498db;
+  border-radius: 6px;
+}
+
+/* Styles for the input and select when in focus */
+input:focus, select:focus {
+  border: none; /* Remove the default focus border */
+  margin: 10px; /* Adjust the margin as per your requirement */
+  padding: 10px; /* Adjust the padding as per your requirement (increasing it from 10px to 20px) */
+  outline: 2px solid blue; /* Example: Set a blue focus border with 2px width */
+}
+
+footer {
+  text-align: center;
+  color: #7f8c8d;
+  font-size: 14px;
+  margin-top: 20px;
+}
